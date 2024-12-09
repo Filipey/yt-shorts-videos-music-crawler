@@ -22,7 +22,7 @@ class ShortsSongsCrawler:
     current_week: str
     driver: WebDriver
     logger: logging.Logger
-    dataset_path: str = "/home/filipe/Pesquisas/short-videos/dataset"
+    dataset_path: str = "../dataset"
     YT_CHARTS_URL = "https://charts.youtube.com/charts/TopShortsSongs/global/daily"
     is_collecting_shorts_songs: bool = True
     max_previous_day_str: str

@@ -6,9 +6,7 @@ from shorts_songs_crawler import ShortsSongsCrawler
 
 options = webdriver.FirefoxOptions()
 options.set_preference("browser.download.folderList", 2)
-options.set_preference(
-    "browser.download.dir", "/home/filipe/Pesquisas/short-videos/dataset"
-)
+options.set_preference("browser.download.dir", "../dataset")
 options.set_preference(
     "browser.helperApps.neverAsk.saveToDisk", "application/pdf,text/csv"
 )
